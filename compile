@@ -1,0 +1,1 @@
+gcc -shared -o libsteakeater.so -fPIC -I/usr/include/lua5.3 steak_eater.c block_pos.c direction.c gps.c turtle.c logger.c
